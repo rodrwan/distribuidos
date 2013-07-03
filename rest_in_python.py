@@ -17,7 +17,7 @@ def getUsers():
         response.content_type = 'text/json; charset=utf-8'
         return json.dumps({ 'data' : users }, indent=4, separators=(',', ': '))
     except:
-        abort(404, 'Error en parametros, falto .json')
+        abort(404, 'Error algo salio mal.')
 
 @route('/users/:id', method='GET')
 def getUser(id):

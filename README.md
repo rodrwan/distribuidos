@@ -35,13 +35,13 @@ Lo cual nos entrega todos los usuarios que están registrados.
 	}
 En el caso de que se quiera obtener los datos de un usuario en especifico se utiliza la siguiente url:
 
-> http://localhost:8080/users/id_usuario GET
+> http://localhost:8080/users/id_usuario.json GET
 
 donde el id_usuario es el id del usuario que se quiere obtener la información.
 
 ##### Ejemplo:
 
-> http://localhost:8080/users/0
+> http://localhost:8080/users/0.json
 
 	{
 	    "data": {
