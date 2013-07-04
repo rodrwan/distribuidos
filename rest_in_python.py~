@@ -43,5 +43,5 @@ def setUser():
         return json.dumps({'data':'usuario ingresado\n'}, indent=4, separators=(',', ': '))
 
  
-run(host='localhost', port=8080)
+run(host='localhost', port=8080, debug=True)
 
